@@ -5,13 +5,38 @@
 - ls -l : For listing all files and folder.
 - ls -R : For show directory,subdirectory & files.
 - mkdir: for making directory(folder).
-- (Example: mkdir folder Name").
+- (Example: mkdir "folder_Name").
 - cd: change Directory
 - (example cd ../ "for going in parent folder"
 - cd "childfolder Name")
 - echo *: Show files and folder.
 - echo text: For printing that text.
-- pwd : Print Working Directory.\
+- pwd : Print Working Directory.
 - open . : For openning current folder in file explorer.
 - cat "File Name" : To Open it as cat in Terminal.
 - cat >"File name" :  To create a output file using cat
+- _________________________________________________________________________________________________________________________________
+## Note:
+- if you want to save the output of terminal in any file you can do it by writing your command then "> file name"
+- Example: cat first.txt secound.
+- _________________________________________________________________________________________________________________________________
+- cp "filename or path" "Path": It is used to copy file to defined path
+- mv "path of file, folder or path" "Destination path": To move file or folder 
+- echo "text > file: Make a file with the following text.
+- rm "File name" : For removing file.
+- rm -R "Folder name" : For removing folder.
+- man "command" : For show manual of any command.
+- df : report file system space usage.
+- df -m : To Show report file system space usage in Mb.
+- df -h : To Show report file system space usage in human readable format.
+- du: estimate file space usage.
+- head : output the first part of files
+- (example: for first 4 line: head -n 4 textfile.txt)
+- tail : output the last part of files.
+- (example: for last 2 line: tail -n 2 textfile.txt)
+- diff : compare files line by line.
+- (Example: diff firsttextfile.txt twotextfile.txt)
+- locate: find files from root view.
+- (Example:'locate "*.txt" ' for searching from root pointer view)
+- (Example:'locate "filename"': for searching that file from root directory)
+- 
