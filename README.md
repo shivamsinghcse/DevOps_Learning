@@ -20,8 +20,8 @@
 - if you want to save the output of terminal in any file you can do it by writing your command then "> file name"
 - Example: cat first.txt secound.
 - _________________________________________________________________________________________________________________________________
-- cp "filename or path" "Path": It is used to copy file to defined path
-- mv "path of file, folder or path" "Destination path": To move file or folder 
+- cp "filename or path" "Path": It is used to copy file to defined path.
+- mv "path of file, folder or path" "Destination path": To move file or folder. 
 - echo "text > file: Make a file with the following text.
 - rm "File name" : For removing file.
 - rm -R "Folder name" : For removing folder.
@@ -30,13 +30,14 @@
 - df -m : To Show report file system space usage in Mb.
 - df -h : To Show report file system space usage in human readable format.
 - du: estimate file space usage.
-- head : output the first part of files
-- (example: for first 4 line: head -n 4 textfile.txt)
+- head : output the first part of files.
+- (example: for first 4 line: head -n 4 textfile.txt).
 - tail : output the last part of files.
-- (example: for last 2 line: tail -n 2 textfile.txt)
+- (example: for last 2 line: tail -n 2 textfile.txt).
 - diff : compare files line by line.
-- (Example: diff firsttextfile.txt twotextfile.txt)
+- (Example: diff firsttextfile.txt twotextfile.txt).
 - locate: find files from root view.
-- (Example:'locate "*.txt" ' for searching from root pointer view)
-- (Example:'locate "filename"': for searching that file from root directory)
+- (Example:'locate "*.txt" ' for searching from root pointer view).
+- (Example:'locate "filename"': for searching that file from root directory).
+- find : search for files in a directory hierarchy.
 - 
